@@ -4,6 +4,7 @@
 // Constructor
 UDPTool::UDPTool(QWidget *parent) : QWidget(parent) {
     initUI();
+    testNetworkInterface();
 }
 
 // UI Initialization Method
@@ -89,6 +90,13 @@ void UDPTool::initUI() {
 //         }
 //     }
 // }
+
+void UDPTool::testNetworkInterface() {
+    QList<QHostAddress> ipAddresses = QNetworkInterface::allAddresses();
+    for (const QHostAddress &address : ipAddresses) {
+        qDebug() << "Available IP Address:" << address.toString();
+    }
+}
 
 // Slot function to send UDP message
 void UDPTool::sendUdpMessage() {

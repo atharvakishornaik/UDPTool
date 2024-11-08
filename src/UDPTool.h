@@ -27,6 +27,7 @@ private slots:
     void broadcastMessage();
     void applyStyling();
     void populateLocalIPAddresses();
+    void testNetworkInterface();
 
 private:
     QComboBox *local_ip_input;
