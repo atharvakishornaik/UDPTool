@@ -4,7 +4,6 @@
 // Constructor
 UDPTool::UDPTool(QWidget *parent) : QWidget(parent) {
     initUI();
-    testNetworkInterface();
 }
 
 // UI Initialization Method
@@ -14,12 +13,9 @@ void UDPTool::initUI() {
 
     // Labels and Input fields for Local and Remote IP/Port
     QLabel *local_ip_label = new QLabel("Lokale IP:");
-    QComboBox *local_ip_input = new QComboBox();
-    local_ip_input->addItem("140.140.1.1");  // Default value
-    local_ip_input->addItem("140.140.1.2");
-    local_ip_input->addItem("140.140.1.3");
+    local_ip_input = new QComboBox(); 
     // Populate the combo box with IP addresses
-    // populateLocalIPAddresses();
+    populateLocalIPAddresses();
 
     QLabel *local_port_label = new QLabel("Lokaler Port:");
     QSpinBox *local_port_input = new QSpinBox();
@@ -64,13 +60,10 @@ void UDPTool::initUI() {
     grid_layout->addWidget(broadcast_button, 2, 3);
     grid_layout->addWidget(logDisplay, 3, 0, 1, 4);
 
-    // Spacer item to push the layout to the top
-    // QSpacerItem *spacer_item = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
     // Main Layout
     QVBoxLayout *main_layout = new QVBoxLayout();
     main_layout->addLayout(grid_layout);
-    //main_layout->addItem(spacer_item);  // Add spacer to push layout to the top
     setLayout(main_layout);
 
     // Set window size
@@ -82,21 +75,13 @@ void UDPTool::initUI() {
 }
 
 // Method to populate the ComboBox with local IP addresses
-// void UDPTool::populateLocalIPAddresses() {
-//     QList<QHostAddress> ipAddresses = QNetworkInterface::allAddresses();
-//     for (const QHostAddress &address : ipAddresses) {
-//         if (address.protocol() == QAbstractSocket::IPv4Protocol && !address.isLoopback()) {
-//             local_ip_input->addItem(address.toString());
-//         }
-//     }
-// }
-
-void UDPTool::testNetworkInterface() {
+void UDPTool::populateLocalIPAddresses() {
     QList<QHostAddress> ipAddresses = QNetworkInterface::allAddresses();
     for (const QHostAddress &address : ipAddresses) {
-        qDebug() << "Available IP Address:" << address.toString();
+        local_ip_input->addItem(address.toString());
     }
 }
+
 
 // Slot function to send UDP message
 void UDPTool::sendUdpMessage() {

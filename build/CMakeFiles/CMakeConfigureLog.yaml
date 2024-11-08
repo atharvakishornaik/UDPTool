@@ -26,7 +26,7 @@ events:
       Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
       Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
       
-      Der Buildvorgang wurde am 08.11.2024 13:56:04 gestartet.
+      Der Buildvorgang wurde am 08.11.2024 15:03:24 gestartet.
       Projekt "D:\\UDPTool\\build\\CMakeFiles\\3.28.3\\CompilerIdC\\CompilerIdC.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
         Das Verzeichnis "Debug\\" wird erstellt.
@@ -80,7 +80,7 @@ events:
       Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
       Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
       
-      Der Buildvorgang wurde am 08.11.2024 13:56:05 gestartet.
+      Der Buildvorgang wurde am 08.11.2024 15:03:25 gestartet.
       Projekt "D:\\UDPTool\\build\\CMakeFiles\\3.28.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" auf Knoten "1" (Standardziele).
       PrepareForBuild:
         Das Verzeichnis "Debug\\" wird erstellt.
@@ -106,7 +106,7 @@ events:
           0 Warnung(en)
           0 Fehler
       
-      Verstrichene Zeit 00:00:00.63
+      Verstrichene Zeit 00:00:00.65
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-kno73e"
-      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-kno73e"
+      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-k48kwo"
+      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-k48kwo"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -134,33 +134,33 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-kno73e'
+        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-k48kwo'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_76750.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_377b0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
         Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Der Buildvorgang wurde am 08.11.2024 13:56:05 gestartet.
-        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kno73e\\cmTC_76750.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 08.11.2024 15:03:26 gestartet.
+        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k48kwo\\cmTC_377b0.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_76750.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kno73e\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_76750.dir\\Debug\\cmTC_76750.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_377b0.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k48kwo\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_377b0.dir\\Debug\\cmTC_377b0.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_76750.dir\\Debug\\cmTC_76750.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          "cmTC_377b0.dir\\Debug\\cmTC_377b0.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76750.dir\\Debug\\\\" /Fd"cmTC_76750.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_377b0.dir\\Debug\\\\" /Fd"cmTC_377b0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30154 für x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
           CMakeCCompilerABI.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76750.dir\\Debug\\\\" /Fd"cmTC_76750.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_377b0.dir\\Debug\\\\" /Fd"cmTC_377b0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kno73e\\Debug\\cmTC_76750.exe" /INCREMENTAL /ILK:"cmTC_76750.dir\\Debug\\cmTC_76750.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-kno73e/Debug/cmTC_76750.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-kno73e/Debug/cmTC_76750.lib" /MACHINE:X64  /machine:x64 cmTC_76750.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_76750.vcxproj -> D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kno73e\\Debug\\cmTC_76750.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k48kwo\\Debug\\cmTC_377b0.exe" /INCREMENTAL /ILK:"cmTC_377b0.dir\\Debug\\cmTC_377b0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-k48kwo/Debug/cmTC_377b0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-k48kwo/Debug/cmTC_377b0.lib" /MACHINE:X64  /machine:x64 cmTC_377b0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_377b0.vcxproj -> D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k48kwo\\Debug\\cmTC_377b0.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_76750.dir\\Debug\\cmTC_76750.tlog\\unsuccessfulbuild" wird gelöscht.
-          Aktualisieren des Timestamps von "cmTC_76750.dir\\Debug\\cmTC_76750.tlog\\cmTC_76750.lastbuildstate".
-        Die Erstellung von Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kno73e\\cmTC_76750.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_377b0.dir\\Debug\\cmTC_377b0.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_377b0.dir\\Debug\\cmTC_377b0.tlog\\cmTC_377b0.lastbuildstate".
+        Die Erstellung von Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-k48kwo\\cmTC_377b0.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgeführt.
             0 Warnung(en)
@@ -178,8 +178,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-4t7pi9"
-      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-4t7pi9"
+      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-d29961"
+      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-d29961"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -187,39 +187,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-4t7pi9'
+        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-d29961'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_cfd04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_06270.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
         Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Der Buildvorgang wurde am 08.11.2024 13:56:06 gestartet.
-        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4t7pi9\\cmTC_cfd04.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 08.11.2024 15:03:27 gestartet.
+        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d29961\\cmTC_06270.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_cfd04.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4t7pi9\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_cfd04.dir\\Debug\\cmTC_cfd04.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_06270.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d29961\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_06270.dir\\Debug\\cmTC_06270.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_cfd04.dir\\Debug\\cmTC_cfd04.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          "cmTC_06270.dir\\Debug\\cmTC_06270.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cfd04.dir\\Debug\\\\" /Fd"cmTC_cfd04.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_06270.dir\\Debug\\\\" /Fd"cmTC_06270.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30154 für x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_cfd04.dir\\Debug\\\\" /Fd"cmTC_cfd04.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_06270.dir\\Debug\\\\" /Fd"cmTC_06270.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4t7pi9\\Debug\\cmTC_cfd04.exe" /INCREMENTAL /ILK:"cmTC_cfd04.dir\\Debug\\cmTC_cfd04.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-4t7pi9/Debug/cmTC_cfd04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-4t7pi9/Debug/cmTC_cfd04.lib" /MACHINE:X64  /machine:x64 cmTC_cfd04.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_cfd04.vcxproj -> D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4t7pi9\\Debug\\cmTC_cfd04.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d29961\\Debug\\cmTC_06270.exe" /INCREMENTAL /ILK:"cmTC_06270.dir\\Debug\\cmTC_06270.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-d29961/Debug/cmTC_06270.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-d29961/Debug/cmTC_06270.lib" /MACHINE:X64  /machine:x64 cmTC_06270.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_06270.vcxproj -> D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d29961\\Debug\\cmTC_06270.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_cfd04.dir\\Debug\\cmTC_cfd04.tlog\\unsuccessfulbuild" wird gelöscht.
-          Aktualisieren des Timestamps von "cmTC_cfd04.dir\\Debug\\cmTC_cfd04.tlog\\cmTC_cfd04.lastbuildstate".
-        Die Erstellung von Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4t7pi9\\cmTC_cfd04.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_06270.dir\\Debug\\cmTC_06270.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_06270.dir\\Debug\\cmTC_06270.tlog\\cmTC_06270.lastbuildstate".
+        Die Erstellung von Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-d29961\\cmTC_06270.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgeführt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:00.61
+        Verstrichene Zeit 00:00:00.60
         
       exitCode: 0
   -
@@ -237,8 +237,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-gm90db"
-      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-gm90db"
+      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-x61hju"
+      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-x61hju"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -248,39 +248,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-gm90db'
+        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-x61hju'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_7f0bc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_a4aa0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
         Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Der Buildvorgang wurde am 08.11.2024 13:56:07 gestartet.
-        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\cmTC_7f0bc.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 08.11.2024 15:03:28 gestartet.
+        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\cmTC_a4aa0.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_7f0bc.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_7f0bc.dir\\Debug\\cmTC_7f0bc.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_a4aa0.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_a4aa0.dir\\Debug\\cmTC_a4aa0.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_7f0bc.dir\\Debug\\cmTC_7f0bc.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          "cmTC_a4aa0.dir\\Debug\\cmTC_a4aa0.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f0bc.dir\\Debug\\\\" /Fd"cmTC_7f0bc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4aa0.dir\\Debug\\\\" /Fd"cmTC_a4aa0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\src.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30154 für x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
           src.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f0bc.dir\\Debug\\\\" /Fd"cmTC_7f0bc.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\src.c"
-        D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\src.c(1,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\cmTC_7f0bc.vcxproj]
-        Die Erstellung des Projekts "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\cmTC_7f0bc.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a4aa0.dir\\Debug\\\\" /Fd"cmTC_a4aa0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\src.c"
+        D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\src.c(1,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\cmTC_a4aa0.vcxproj]
+        Die Erstellung des Projekts "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\cmTC_a4aa0.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\cmTC_7f0bc.vcxproj" (Standardziel) (1) ->
+        "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\cmTC_a4aa0.vcxproj" (Standardziel) (1) ->
         (ClCompile Ziel) -> 
-          D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\src.c(1,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gm90db\\cmTC_7f0bc.vcxproj]
+          D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\src.c(1,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "pthread.h": No such file or directory [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x61hju\\cmTC_a4aa0.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.37
+        Verstrichene Zeit 00:00:00.38
         
       exitCode: 1
   -
@@ -297,8 +297,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-mgl3x3"
-      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-mgl3x3"
+      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-j44ljl"
+      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-j44ljl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -308,41 +308,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-mgl3x3'
+        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-j44ljl'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_c2500.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_03a9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
         Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Der Buildvorgang wurde am 08.11.2024 13:56:08 gestartet.
-        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\cmTC_c2500.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 08.11.2024 15:03:28 gestartet.
+        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\cmTC_03a9b.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_c2500.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_c2500.dir\\Debug\\cmTC_c2500.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_03a9b.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_03a9b.dir\\Debug\\cmTC_03a9b.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_c2500.dir\\Debug\\cmTC_c2500.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          "cmTC_03a9b.dir\\Debug\\cmTC_03a9b.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2500.dir\\Debug\\\\" /Fd"cmTC_c2500.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03a9b.dir\\Debug\\\\" /Fd"cmTC_03a9b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\CheckFunctionExists.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30154 für x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2500.dir\\Debug\\\\" /Fd"cmTC_c2500.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_03a9b.dir\\Debug\\\\" /Fd"cmTC_03a9b.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\Debug\\cmTC_c2500.exe" /INCREMENTAL /ILK:"cmTC_c2500.dir\\Debug\\cmTC_c2500.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-mgl3x3/Debug/cmTC_c2500.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-mgl3x3/Debug/cmTC_c2500.lib" /MACHINE:X64  /machine:x64 cmTC_c2500.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\cmTC_c2500.vcxproj]
-        Die Erstellung des Projekts "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\cmTC_c2500.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\Debug\\cmTC_03a9b.exe" /INCREMENTAL /ILK:"cmTC_03a9b.dir\\Debug\\cmTC_03a9b.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-j44ljl/Debug/cmTC_03a9b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-j44ljl/Debug/cmTC_03a9b.lib" /MACHINE:X64  /machine:x64 cmTC_03a9b.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\cmTC_03a9b.vcxproj]
+        Die Erstellung des Projekts "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\cmTC_03a9b.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\cmTC_c2500.vcxproj" (Standardziel) (1) ->
+        "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\cmTC_03a9b.vcxproj" (Standardziel) (1) ->
         (Link Ziel) -> 
-          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mgl3x3\\cmTC_c2500.vcxproj]
+          LINK : fatal error LNK1104: Datei "pthreads.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j44ljl\\cmTC_03a9b.vcxproj]
         
             0 Warnung(en)
             1 Fehler
         
-        Verstrichene Zeit 00:00:00.50
+        Verstrichene Zeit 00:00:00.49
         
       exitCode: 1
   -
@@ -359,8 +359,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-f75s3l"
-      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-f75s3l"
+      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-e8eavn"
+      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-e8eavn"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -370,36 +370,36 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-f75s3l'
+        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-e8eavn'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_1e4f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_7a1b6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
         Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Der Buildvorgang wurde am 08.11.2024 13:56:09 gestartet.
-        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\cmTC_1e4f0.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 08.11.2024 15:03:29 gestartet.
+        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\cmTC_7a1b6.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_1e4f0.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_1e4f0.dir\\Debug\\cmTC_1e4f0.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_7a1b6.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_7a1b6.dir\\Debug\\cmTC_7a1b6.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_1e4f0.dir\\Debug\\cmTC_1e4f0.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          "cmTC_7a1b6.dir\\Debug\\cmTC_7a1b6.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e4f0.dir\\Debug\\\\" /Fd"cmTC_1e4f0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a1b6.dir\\Debug\\\\" /Fd"cmTC_7a1b6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\CheckFunctionExists.c"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30154 für x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
           CheckFunctionExists.c
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e4f0.dir\\Debug\\\\" /Fd"cmTC_1e4f0.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7a1b6.dir\\Debug\\\\" /Fd"cmTC_7a1b6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\Debug\\cmTC_1e4f0.exe" /INCREMENTAL /ILK:"cmTC_1e4f0.dir\\Debug\\cmTC_1e4f0.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-f75s3l/Debug/cmTC_1e4f0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-f75s3l/Debug/cmTC_1e4f0.lib" /MACHINE:X64  /machine:x64 cmTC_1e4f0.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\cmTC_1e4f0.vcxproj]
-        Die Erstellung des Projekts "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\cmTC_1e4f0.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\Debug\\cmTC_7a1b6.exe" /INCREMENTAL /ILK:"cmTC_7a1b6.dir\\Debug\\cmTC_7a1b6.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-e8eavn/Debug/cmTC_7a1b6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-e8eavn/Debug/cmTC_7a1b6.lib" /MACHINE:X64  /machine:x64 cmTC_7a1b6.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\cmTC_7a1b6.vcxproj]
+        Die Erstellung des Projekts "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\cmTC_7a1b6.vcxproj" ist abgeschlossen (Standardziele) -- FEHLER.
         
         Fehler beim Buildvorgang.
         
-        "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\cmTC_1e4f0.vcxproj" (Standardziel) (1) ->
+        "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\cmTC_7a1b6.vcxproj" (Standardziel) (1) ->
         (Link Ziel) -> 
-          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f75s3l\\cmTC_1e4f0.vcxproj]
+          LINK : fatal error LNK1104: Datei "pthread.lib" kann nicht geöffnet werden. [D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e8eavn\\cmTC_7a1b6.vcxproj]
         
             0 Warnung(en)
             1 Fehler
@@ -422,8 +422,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-izfr4s"
-      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-izfr4s"
+      source: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-hwqw8c"
+      binary: "D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-hwqw8c"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -433,39 +433,39 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-izfr4s'
+        Change Dir: 'D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-hwqw8c'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_0dc54.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_1ccb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R)-Build-Engine, Version 16.11.2+f32259642 für .NET Framework
         Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
         
-        Der Buildvorgang wurde am 08.11.2024 13:56:09 gestartet.
-        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\cmTC_0dc54.vcxproj" auf Knoten "1" (Standardziele).
+        Der Buildvorgang wurde am 08.11.2024 15:03:30 gestartet.
+        Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\cmTC_1ccb2.vcxproj" auf Knoten "1" (Standardziele).
         PrepareForBuild:
-          Das Verzeichnis "cmTC_0dc54.dir\\Debug\\" wird erstellt.
-          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\Debug\\" wird erstellt.
-          Das Verzeichnis "cmTC_0dc54.dir\\Debug\\cmTC_0dc54.tlog\\" wird erstellt.
+          Das Verzeichnis "cmTC_1ccb2.dir\\Debug\\" wird erstellt.
+          Das Verzeichnis "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\Debug\\" wird erstellt.
+          Das Verzeichnis "cmTC_1ccb2.dir\\Debug\\cmTC_1ccb2.tlog\\" wird erstellt.
         InitializeBuildStatus:
-          "cmTC_0dc54.dir\\Debug\\cmTC_0dc54.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
+          "cmTC_1ccb2.dir\\Debug\\cmTC_1ccb2.tlog\\unsuccessfulbuild" wird erstellt, da "AlwaysCreate" angegeben wurde.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0dc54.dir\\Debug\\\\" /Fd"cmTC_0dc54.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\src.cxx"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_1ccb2.dir\\Debug\\\\" /Fd"cmTC_1ccb2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\src.cxx"
           Microsoft (R) C/C++-Optimierungscompiler Version 19.29.30154 für x64
           Copyright (C) Microsoft Corporation. Alle Rechte vorbehalten.
           src.cxx
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_0dc54.dir\\Debug\\\\" /Fd"cmTC_0dc54.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\src.cxx"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_STDATOMIC /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /std:c++17 /Fo"cmTC_1ccb2.dir\\Debug\\\\" /Fd"cmTC_1ccb2.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\src.cxx"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\Debug\\cmTC_0dc54.exe" /INCREMENTAL /ILK:"cmTC_0dc54.dir\\Debug\\cmTC_0dc54.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-izfr4s/Debug/cmTC_0dc54.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-izfr4s/Debug/cmTC_0dc54.lib" /MACHINE:X64  /machine:x64 cmTC_0dc54.dir\\Debug\\src.obj
-          cmTC_0dc54.vcxproj -> D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\Debug\\cmTC_0dc54.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\Debug\\cmTC_1ccb2.exe" /INCREMENTAL /ILK:"cmTC_1ccb2.dir\\Debug\\cmTC_1ccb2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-hwqw8c/Debug/cmTC_1ccb2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/UDPTool/build/CMakeFiles/CMakeScratch/TryCompile-hwqw8c/Debug/cmTC_1ccb2.lib" /MACHINE:X64  /machine:x64 cmTC_1ccb2.dir\\Debug\\src.obj
+          cmTC_1ccb2.vcxproj -> D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\Debug\\cmTC_1ccb2.exe
         FinalizeBuildStatus:
-          Die Datei "cmTC_0dc54.dir\\Debug\\cmTC_0dc54.tlog\\unsuccessfulbuild" wird gelöscht.
-          Aktualisieren des Timestamps von "cmTC_0dc54.dir\\Debug\\cmTC_0dc54.tlog\\cmTC_0dc54.lastbuildstate".
-        Die Erstellung von Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-izfr4s\\cmTC_0dc54.vcxproj" ist abgeschlossen (Standardziele).
+          Die Datei "cmTC_1ccb2.dir\\Debug\\cmTC_1ccb2.tlog\\unsuccessfulbuild" wird gelöscht.
+          Aktualisieren des Timestamps von "cmTC_1ccb2.dir\\Debug\\cmTC_1ccb2.tlog\\cmTC_1ccb2.lastbuildstate".
+        Die Erstellung von Projekt "D:\\UDPTool\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hwqw8c\\cmTC_1ccb2.vcxproj" ist abgeschlossen (Standardziele).
         
         Der Buildvorgang wurde erfolgreich ausgeführt.
             0 Warnung(en)
             0 Fehler
         
-        Verstrichene Zeit 00:00:00.65
+        Verstrichene Zeit 00:00:00.66
         
       exitCode: 0
 ...
