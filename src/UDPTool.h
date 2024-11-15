@@ -28,6 +28,7 @@ private slots:
     void broadcastMessage();
     void applyStyling();
     void populateLocalIPAddresses();
+    QHostAddress getBroadcastAddress();
 
 private:
     QComboBox *local_ip_input;

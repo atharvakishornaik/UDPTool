@@ -120,12 +120,36 @@ void UDPTool::sendUdpMessage() {
     }
 }
 
+//To find the broadcast address of the network interface 
+QHostAddress UDPTool::getBroadcastAddress() {
+    // Get all network interfaces on the system
+    QList<QNetworkInterface> interfaces = QNetworkInterface::allInterfaces();
+
+    for (const QNetworkInterface &interface : interfaces) {
+        // Check if the interface is up and has valid addresses
+        if (interface.flags() & QNetworkInterface::IsUp) {
+            // Iterate through the interface's addresses
+            QList<QNetworkAddressEntry> entries = interface.addressEntries();
+            for (const QNetworkAddressEntry &entry : entries) {
+                // Find the broadcast address
+                if (entry.broadcast() != QHostAddress::Null) {
+                    return entry.broadcast();  // Return the broadcast address
+                }
+            }
+        }
+    }
+
+    // If no broadcast address found, return a default value
+    return QHostAddress("255.255.255.255");
+}
 
 // Slot function to broadcast message
 void UDPTool::broadcastMessage() {
     QString message = send_data_input->text();
     int localPort = local_port_input->value();  // Local port to send from
-    QHostAddress broadcastAddress("255.255.255.255");  // General broadcast address
+    
+    // Get the broadcast address of the network interface
+    QHostAddress broadcastAddress = getBroadcastAddress();
 
     // Create a QUdpSocket instance
     QUdpSocket udpSocket;
