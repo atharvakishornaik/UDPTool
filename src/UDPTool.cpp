@@ -19,7 +19,7 @@ void UDPTool::initUI() {
 
     QLabel *local_port_label = new QLabel("Lokaler Port:");
     local_port_input = new QSpinBox();
-    local_port_input->setRange(50000, 52000);  // Range of values for the ports 
+    local_port_input->setRange(49152, 65535);  // Range of values for the ports, avoided using well known ports
     local_port_input->setValue(50050);     // Default value, you can set an appropriate value here
 
 
@@ -31,7 +31,7 @@ void UDPTool::initUI() {
 
     QLabel *remote_port_label = new QLabel("Remote Port:");
     remote_port_input = new QSpinBox();
-    remote_port_input->setRange(50000, 52000);  // Range of values for the IP address (e.g., 1 to 255)
+    remote_port_input->setRange(49152, 65535);  // Range of values for the ports, avoided using well known ports
     remote_port_input->setValue(50050);     // Default value, you can set an appropriate value here
 
     // Buttons
@@ -88,6 +88,7 @@ void UDPTool::sendUdpMessage() {
     QString message = send_data_input->text();  // Message from the "Sendedaten" input field
     QString remoteIp = remote_ip_input->text(); // Remote IP from the "Remote IP" input field
     quint16 remotePort = remote_port_input->value(); // Remote port from the "Remote Port" input field
+    quint16 localPort = local_port_input->value(); // Remote port from the "Remote Port" input field
 
     if (QHostAddress(remoteIp).isNull()) {
         logDisplay->append("Invalid IP address!");
@@ -106,6 +107,7 @@ void UDPTool::sendUdpMessage() {
 
     // Create a QUdpSocket instance
     QUdpSocket udpSocket;
+    udpSocket.bind(QHostAddress::Any, localPort);  // Explicitly bind to localPort
 
     // Send the message to the remote address and port
     QByteArray data = message.toUtf8();  // Convert the message to bytes
@@ -146,13 +148,16 @@ QHostAddress UDPTool::getBroadcastAddress() {
 // Slot function to broadcast message
 void UDPTool::broadcastMessage() {
     QString message = send_data_input->text();
-    int localPort = local_port_input->value();  // Local port to send from
+    quint16 localPort = local_port_input->value();  // Local port to send from
+    quint16 remotePort = remote_port_input->value();  // Remote port to send to
+
     
     // Get the broadcast address of the network interface
     QHostAddress broadcastAddress = getBroadcastAddress();
 
     // Create a QUdpSocket instance
     QUdpSocket udpSocket;
+    udpSocket.bind(QHostAddress::Any, localPort);  // Explicitly bind to localPort
     
     // Enable broadcast on the UDP socket
     udpSocket.setSocketOption(QAbstractSocket::MulticastTtlOption, 1);
@@ -165,10 +170,10 @@ void UDPTool::broadcastMessage() {
 
     // Log the broadcast action
     logDisplay->append("Broadcasting message: " + message);
-    logDisplay->append("On broadcast address: " + broadcastAddress.toString() + " Port: " + QString::number(localPort));
+    logDisplay->append("On broadcast address: " + broadcastAddress.toString() + " Remote Port: " + QString::number(remotePort));
 
     // Send the broadcast message
-    qint64 bytesSent = udpSocket.writeDatagram(message.toUtf8(), broadcastAddress, localPort);
+    qint64 bytesSent = udpSocket.writeDatagram(message.toUtf8(), broadcastAddress, remotePort);
 
     // Log the result
     if (bytesSent == -1) {
