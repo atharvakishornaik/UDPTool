@@ -38,6 +38,7 @@ private:
     QPushButton *send_button;
     QPushButton *broadcast_button;
     QTextEdit *logDisplay;
+    QUdpSocket *udpSocket;
 
     void initUI();
 };

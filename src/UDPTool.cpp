@@ -123,9 +123,37 @@ void UDPTool::sendUdpMessage() {
 
 // Slot function to broadcast message
 void UDPTool::broadcastMessage() {
-    // Placeholder for broadcasting message logic
-    qDebug() << "Broadcasting message";
+    QString message = send_data_input->text();
+    int localPort = local_port_input->value();  // Local port to send from
+    QHostAddress broadcastAddress("255.255.255.255");  // General broadcast address
+
+    // Create a QUdpSocket instance
+    QUdpSocket udpSocket;
+    
+    // Enable broadcast on the UDP socket
+    udpSocket.setSocketOption(QAbstractSocket::MulticastTtlOption, 1);
+
+    // Check for errors after attempting to set the socket option
+    if (udpSocket.error() != QAbstractSocket::UnknownSocketError) {
+        logDisplay->append("Failed to set broadcast option on UDP socket. Error: " + udpSocket.errorString());
+        return;
+    }
+
+    // Log the broadcast action
+    logDisplay->append("Broadcasting message: " + message);
+    logDisplay->append("On broadcast address: " + broadcastAddress.toString() + " Port: " + QString::number(localPort));
+
+    // Send the broadcast message
+    qint64 bytesSent = udpSocket.writeDatagram(message.toUtf8(), broadcastAddress, localPort);
+
+    // Log the result
+    if (bytesSent == -1) {
+        logDisplay->append("Failed to broadcast message! Error: " + udpSocket.errorString());
+    } else {
+        logDisplay->append("Broadcasted " + QString::number(bytesSent) + " bytes on port " + QString::number(localPort));
+    }
 }
+
 
 // Method to apply the custom styles (QSS)
 void UDPTool::applyStyling() {
