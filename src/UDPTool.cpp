@@ -183,6 +183,37 @@ void UDPTool::broadcastMessage() {
     }
 }
 
+void UDPTool::receiveUdpMessage() {
+    QUdpSocket udpSocket;
+    
+    // Bind to the same port as the sender
+    if (!udpSocket.bind(QHostAddress::Any, local_port_input->value())) {
+        logDisplay->append("Failed to bind UDP socket for receiving! Error: " + udpSocket.errorString());
+        return;
+    }
+
+    // Receive messages
+    connect(&udpSocket, &QUdpSocket::readyRead, this, &UDPTool::onReadyRead);
+}
+
+void UDPTool::onReadyRead() {
+    QUdpSocket *udpSocket = qobject_cast<QUdpSocket *>(sender());
+    if (!udpSocket) return;
+
+    QByteArray datagram;
+    QHostAddress sender;
+    quint16 senderPort;
+    
+    // Read the incoming message
+    while (udpSocket->hasPendingDatagrams()) {
+        datagram.resize(int(udpSocket->pendingDatagramSize()));
+        udpSocket->readDatagram(datagram.data(), datagram.size(), &sender, &senderPort);
+    }
+    
+    // Log the received message
+    logDisplay->append("Received message: " + QString(datagram));
+    logDisplay->append("From IP: " + sender.toString() + " Port: " + QString::number(senderPort));
+}
 
 // Method to apply the custom styles (QSS)
 void UDPTool::applyStyling() {

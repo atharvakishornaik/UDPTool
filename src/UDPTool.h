@@ -43,6 +43,8 @@ private:
     QTextEdit *logDisplay;
     QUdpSocket *udpSocket;
 
+    void receiveUdpMessage();
+    void onReadyRead();
     void initUI();
 };
 
