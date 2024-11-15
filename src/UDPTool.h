@@ -15,7 +15,8 @@
 #include <QSpacerItem>
 #include <QSizePolicy>
 #include <QNetworkInterface>
-
+#include <QUdpSocket>
+#include <QHostAddress>
 
 class UDPTool : public QWidget {
     
@@ -36,6 +37,7 @@ private:
     QSpinBox *remote_port_input;
     QPushButton *send_button;
     QPushButton *broadcast_button;
+    QTextEdit *logDisplay;
 
     void initUI();
 };

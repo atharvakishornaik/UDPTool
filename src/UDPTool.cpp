@@ -18,8 +18,8 @@ void UDPTool::initUI() {
     populateLocalIPAddresses();
 
     QLabel *local_port_label = new QLabel("Lokaler Port:");
-    QSpinBox *local_port_input = new QSpinBox();
-    local_port_input->setRange(50000, 52000);  // Range of values for the IP address (e.g., 1 to 255)
+    local_port_input = new QSpinBox();
+    local_port_input->setRange(50000, 52000);  // Range of values for the ports 
     local_port_input->setValue(50050);     // Default value, you can set an appropriate value here
 
 
@@ -30,7 +30,7 @@ void UDPTool::initUI() {
     remote_ip_input = new QLineEdit("140.140.2.1");  // Default Value
 
     QLabel *remote_port_label = new QLabel("Remote Port:");
-    QSpinBox *remote_port_input = new QSpinBox();
+    remote_port_input = new QSpinBox();
     remote_port_input->setRange(50000, 52000);  // Range of values for the IP address (e.g., 1 to 255)
     remote_port_input->setValue(50050);     // Default value, you can set an appropriate value here
 
@@ -38,7 +38,7 @@ void UDPTool::initUI() {
     send_button = new QPushButton("An Remote IP senden");
     broadcast_button = new QPushButton("Broadcasten");
 
-    QTextEdit *logDisplay = new QTextEdit(this);
+    logDisplay = new QTextEdit(this);
     logDisplay->setText("This address is protected");  // Default text
     logDisplay->setReadOnly(true);  // To make the text non-editable
     logDisplay->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
@@ -83,11 +83,43 @@ void UDPTool::populateLocalIPAddresses() {
 }
 
 
-// Slot function to send UDP message
 void UDPTool::sendUdpMessage() {
-    // Placeholder for sending UDP message logic
-    qDebug() << "Sending UDP message:" << send_data_input->text();
+    // Extract data from UI
+    QString message = send_data_input->text();  // Message from the "Sendedaten" input field
+    QString remoteIp = remote_ip_input->text(); // Remote IP from the "Remote IP" input field
+    quint16 remotePort = remote_port_input->value(); // Remote port from the "Remote Port" input field
+
+    if (QHostAddress(remoteIp).isNull()) {
+        logDisplay->append("Invalid IP address!");
+        return;
+    }
+
+    logDisplay->append("Sending message: " + message); // Update the log display
+    logDisplay->append("To IP: " + remoteIp + " Port: " + QString::number(remotePort)); // Append IP and port to logDisplay
+
+    // Check if the remote IP is valid
+    QHostAddress remoteAddress(remoteIp);
+    if (remoteAddress.isNull()) {
+        logDisplay->append("Invalid remote IP address!");
+        return;
+    }
+
+    // Create a QUdpSocket instance
+    QUdpSocket udpSocket;
+
+    // Send the message to the remote address and port
+    QByteArray data = message.toUtf8();  // Convert the message to bytes
+
+    qint64 bytesSent = udpSocket.writeDatagram(data, remoteAddress, remotePort);
+
+    // Check if the message was sent successfully
+    if (bytesSent == -1) {
+        logDisplay->append("Failed to send message! Error: " + udpSocket.errorString());  // Log error
+    } else {
+        logDisplay->append("Sent " + QString::number(bytesSent) + " bytes to " + remoteIp + " on port " + QString::number(remotePort)); // Log success
+    }
 }
+
 
 // Slot function to broadcast message
 void UDPTool::broadcastMessage() {
@@ -125,8 +157,19 @@ void UDPTool::applyStyling() {
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
         }
+        
 
     )";
+
+    logDisplay->setStyleSheet(R"(
+        QTextEdit {
+            border: 2px solid #555;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+    )");
+
 
     // Apply the styles to the input fields and buttons
     send_button->setStyleSheet(buttonStyle);
