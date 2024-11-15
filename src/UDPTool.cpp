@@ -186,54 +186,16 @@ void UDPTool::broadcastMessage() {
 
 // Method to apply the custom styles (QSS)
 void UDPTool::applyStyling() {
-    // Apply styles for input fields (depth effect)
-    QString inputStyle = R"(
-        QLineEdit, QComboBox, QSpinBox {
-            border: 2px solid #555;
-            border-radius: 5px;
-            padding: 5px;
-            background-color: #f0f0f0;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+    // Load the QSS file
+    QFile file("./style.qss");  
 
-        QLineEdit:focus, QComboBox:focus, QSpinBox:focus {
-            border-color: #4d90fe;
-            box-shadow: 0 0 8px rgba(0, 120, 255, 0.5);
-        }
-    )";
+    if (file.open(QFile::ReadOnly | QFile::Text)) {
+        QTextStream ts(&file);
+        QString styleSheet = ts.readAll();  // Read the entire QSS content
 
-    // Apply styles for buttons (raised effect)
-    QString buttonStyle = R"(
-        QPushButton {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            font-size: 16px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-        }
-        
-
-    )";
-
-    logDisplay->setStyleSheet(R"(
-        QTextEdit {
-            border: 2px solid #555;
-            border-radius: 5px;
-            background-color: #f0f0f0;
-            padding: 10px;
-        }
-    )");
-
-
-    // Apply the styles to the input fields and buttons
-    send_button->setStyleSheet(buttonStyle);
-    broadcast_button->setStyleSheet(buttonStyle);
-    send_data_input->setStyleSheet(inputStyle);
-    remote_ip_input->setStyleSheet(inputStyle);
-    local_ip_input->setStyleSheet(inputStyle);
-    local_port_input->setStyleSheet(inputStyle);
-    remote_port_input->setStyleSheet(inputStyle);
+        // Apply the styles
+        qApp->setStyleSheet(styleSheet);  // Apply global styles to the entire app
+    } else {
+        qWarning() << "Failed to load QSS file!";
+    }
 }

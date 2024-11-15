@@ -5,6 +5,7 @@
 #include <QString>
 #include <QLabel>
 #include <QMenu>
+#include <QApplication> 
 #include <QSpinBox>
 #include <QLineEdit>
 #include <QTextEdit>
@@ -17,6 +18,7 @@
 #include <QNetworkInterface>
 #include <QUdpSocket>
 #include <QHostAddress>
+#include <QFile>
 
 class UDPTool : public QWidget {
     
